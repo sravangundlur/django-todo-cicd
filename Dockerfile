@@ -1,5 +1,5 @@
-FROM python:3
-RUN pip3 install django
+FROM python:3.2.15
+RUN pip install django
 
 COPY . .
 
