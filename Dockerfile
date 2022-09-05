@@ -1,5 +1,5 @@
 FROM python:3.10 
-RUN pip3 install django==0
+RUN pip3 install django
 
 COPY . .
 
