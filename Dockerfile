@@ -1,5 +1,5 @@
 FROM python:3.8.10
-RUN pip3 install Django
+RUN pip3 install Django==1.18
 
 COPY . .
 
