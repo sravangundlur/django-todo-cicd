@@ -1,4 +1,4 @@
-RUN python3.10 -m pip install django
+FROM python3.10 -m pip install django
 
 COPY . .
 
