@@ -1,5 +1,5 @@
 FROM python
-RUN pip install django
+pip3 install Django==3.0.7
 
 COPY . .
 
