@@ -1,4 +1,4 @@
-FROM python=3.8.10
+FROM python:3.8.10
 RUN pip3 install Django==3.0.7
 
 COPY . .
